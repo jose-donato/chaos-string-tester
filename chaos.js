@@ -1,5 +1,6 @@
 document.getElementById("chaos-btn").addEventListener("click", async () => {
-  function test() {
+  function main() {
+    /* CHAOS DOM IMPLEMENTATION BY John Phamous - https://gist.github.com/JohnPhamous/ecaa69a4f64acac8e02b9baea826863e */
     function walkDOMTree(
       root,
       whatToShow = NodeFilter.SHOW_ALL,
@@ -59,7 +60,7 @@ document.getElementById("chaos-btn").addEventListener("click", async () => {
   chrome.scripting
     .executeScript({
       target: { tabId: tab.id },
-      func: test,
+      func: main,
     })
     .then(() => console.log("injected a function"));
 });
