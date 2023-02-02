@@ -1,0 +1,11 @@
+{
+  "name": "Chaos String Tester",
+  "description": "Chrome extension to cause chaos in all strings on a page",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "chaos.html",
+    "default_icon": "chaostester.png"
+  },
+  "permissions": ["scripting", "activeTab"]
+}
