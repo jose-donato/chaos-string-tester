@@ -24,7 +24,7 @@ Temporary until it's published on the Chrome Web Store:
 2. Click `chaos tester` button
 3. All string elements will be replaced with long random strings
 
-![demo](https://user-images.githubusercontent.com/43375532/216460053-a2b08e35-ff9f-481f-bdd8-6dde9e6a903e.gif)
+![demo](https://user-images.githubusercontent.com/43375532/216460673-67841dd0-e9ad-4c3b-9802-635a60f6eb3a.gif)
 
 
 ## Contributing
