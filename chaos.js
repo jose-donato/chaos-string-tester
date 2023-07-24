@@ -51,7 +51,11 @@ document.getElementById("chaos-btn").addEventListener("click", async () => {
     }
     const textNodes = getAllTextNodes(document.body);
     for (const node of textNodes) {
-      node.textContent = generateRandomString(node.textContent.length);
+      // fix empty textContent
+      if (node.textContent.trim()) {
+        node.textContent = generateRandomString(node.textContent.length);
+      }
+
     }
   }
 
